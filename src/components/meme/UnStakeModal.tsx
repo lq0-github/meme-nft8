@@ -428,9 +428,7 @@ function UnStakeModal(props: any) {
               <div className="flex items-start gap-2 mt-4">
                 <TipIcon className="flex-shrink-0 transform translate-y-1" />
                 <p className="text-sm text-primaryGreen">
-                  {selectedTab === "meme"
-                    ? ``
-                    : `Users can withdraw the staked xREF from the 1st to the 5th.`}
+                  {`Users can withdraw the staked xREF from the 1st to the 5th.`}
                 </p>
               </div>
             )}

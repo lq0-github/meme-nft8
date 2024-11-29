@@ -489,9 +489,7 @@ function StakeModal(props: any) {
               <div className="flex items-start gap-2 mt-4">
                 <TipIcon className="flex-shrink-0 transform translate-y-1" />
                 <p className="text-sm text-primaryGreen">
-                  {selectedTab === "meme"
-                    ? ``
-                    : `Users must stake at least
+                  {`Users must stake at least
                           ${toReadableNumber(
                             xrefSeeds[MEME_TOKEN_XREF_MAP[seed_id]]
                               .seed_decimal,
